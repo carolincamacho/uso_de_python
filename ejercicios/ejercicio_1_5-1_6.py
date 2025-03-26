@@ -11,8 +11,12 @@ Teniendo en cuenta el ejercicio anterior calcule el residuo con el símbolo de m
 y entregue la comprobación con los valores resultantes de dividir dos números entregados
 por el usuario del programa.
 '''
-x=32 #dividendo
-y=5 #divisor
+# x=6 #dividendo
+# y=2 #divisor
+
+x=int (input ("favor entregar dividendo: ")) #dividendo
+y=int (input ("favor entregar divisor: ")) #divisor
+
 print("Dividimos dos numeros,",x,"entre",y)
 
 #cociente
@@ -23,5 +27,6 @@ print("el cociente es:",cociente)
 residuo=x%y 
 print("el residuo es:",residuo)
 
-final= y*cociente+residuo
-print("Aplicando la formula 'Divisor * Cociente + Residuo' se obtien el dividendo:",final)
+# final= y*cociente+residuo
+# print("Aplicando la formula 'Divisor * Cociente + Residuo' se obtien el dividendo:",final)
+print(f"aplicando la formula {y} por {cociente} mas {residuo} se obtiene el dividendo {x} ")
