@@ -14,4 +14,5 @@ numero_3=int (input ("favor digitar tercero numero: "))
 numero_4=int (input ("favor digitar cuarto numero: "))
 numero_5=int (input ("favor digitar quinto numero: "))
 
-
+lista= [numero_1,numero_2,numero_3,numero_4,numero_5]
+print("La lista es: ", lista)
