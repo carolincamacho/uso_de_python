@@ -16,3 +16,11 @@ numero_5=int (input ("favor digitar quinto numero: "))
 
 lista= [numero_1,numero_2,numero_3,numero_4,numero_5]
 print("La lista es: ", lista)
+
+lista.reverse()     #muestra la lista al contrario como se llenó
+print("La lista ordenada es: ", lista)
+
+lista.sort(reverse=True)    #ordena descendente
+print("La lista ordenada es: ", lista)
+
+print("La suma de la lista es: ", sum(lista))       #suma la lista

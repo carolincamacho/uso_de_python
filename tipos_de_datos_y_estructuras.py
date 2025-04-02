@@ -80,9 +80,34 @@ conjunto_2= {'d','e','f'}
 # # son estrucutras mas rigidas, son inmutables.'
 # #almacenan diferentes tipos de datos.
 
-tupla_1=(1,"a",True)
-print(type(tupla_1))
+# tupla_1=(1,"a",True)
+# print(type(tupla_1))
 
-print(tupla_1.count("a"))
-print(tupla_1.index(1))
+# print(tupla_1.count("a"))
+# print(tupla_1.index(1))
 
+#uso de listas
+
+# mi_lista=[9,5,8,15,True]
+# print(mi_lista)
+# print(len(mi_lista))    #funcion para longitud
+# mi_lista.append(False)  #aplicando un metodo a la lista
+# print(mi_lista)
+# print(sum(mi_lista))    #funcion de python para sumar
+
+# lista="135678"
+# print(len(lista))   #longitud de una lista
+# print (list(lista)) # crea una lista a partir del texto.
+
+
+#diccionario
+'{clave:valor, clave:valor}'
+
+estudiantes ={"andres":25, "jose":22,"diana":26}
+print(estudiantes.keys())   # muestra el primer
+print(estudiantes.values())
+print (estudiantes.pop("diana"))
+print (estudiantes)
+
+'diccionarios para parejas, con mas detalle'
+'listas'
