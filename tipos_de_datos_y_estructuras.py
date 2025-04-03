@@ -56,7 +56,7 @@ conjunto_2= {'d','e','f'}
 # print(type(conjunto_1))
 # print(conjunto_1)
 
-# #metodos de los conjuntos
+# #metodos de los conjuntos los conjuntos van entre corchetes
 # #los metodos indican las cosas que podemos hacer con los objetos.
 
 # conjunto_1.add("h")
@@ -76,7 +76,7 @@ conjunto_2= {'d','e','f'}
 # conjunto_2.clear()
 # print(conjunto_2)
 
-# # 'tuplas
+# # 'tuplas se manejan con parentesis
 # # son estrucutras mas rigidas, son inmutables.'
 # #almacenan diferentes tipos de datos.
 
@@ -86,7 +86,7 @@ conjunto_2= {'d','e','f'}
 # print(tupla_1.count("a"))
 # print(tupla_1.index(1))
 
-#uso de listas
+#uso de listas se manejan con corchetes
 
 # mi_lista=[9,5,8,15,True]
 # print(mi_lista)

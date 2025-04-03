@@ -18,7 +18,7 @@ lista= [numero_1,numero_2,numero_3,numero_4,numero_5]
 print("La lista es: ", lista)
 
 lista.reverse()     #muestra la lista al contrario como se llenó
-print("La lista ordenada es: ", lista)
+print("La lista en orden contrario es: ", lista)
 
 lista.sort(reverse=True)    #ordena descendente
 print("La lista ordenada es: ", lista)

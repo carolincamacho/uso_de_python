@@ -11,8 +11,10 @@ ciudad_3=str (input ("favor digitar tercera ciudad: "))
 
 
 ciudades= (ciudad_1,ciudad_2,ciudad_3)
-print("La tupla es: ", ciudades)
+print("Las ciudades en la tupla son: ",ciudades)
 
-print(ciudades[0],ciudades[2])
-print(len(ciudades[0]),len(ciudades[1]),len(ciudades[2])) #usar f para texto
-print (len(ciudades))
+print("La primera y ultima ciudad de la tupla son: ",ciudades[0]," y ",ciudades[2])
+print("La cantidad de caracteres de ",ciudad_1,"es: ",len(ciudades[0]),'\n',
+      "La cantidad de caracteres de ",ciudad_2,"es: ",len(ciudades[1]),'\n',
+      "La cantidad de caracteres de ",ciudad_3,"es: ",len(ciudades[2])) #usar f para texto
+print ("La cantidad de ciudades en la tupla es de: ",len(ciudades))
